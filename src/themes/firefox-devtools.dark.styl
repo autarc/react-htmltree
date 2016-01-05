@@ -1,0 +1,94 @@
+/**
+ * # Theme: Firefox DevTools - Dark
+ *
+ * DevTool Colors:
+ * - https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors
+ */
+
+$background = #14171A;  // --background-body
+$text = #8fa1b2; // --theme-body-color
+$name = #df80ff; // --theme-highlight-pink
+$comment = #5c6773; // --theme-comment
+$backgroundHovered = #183246;
+$selected = #f5f7fa; // value... // --theme-selection-color
+$backgroundSelected = #1d4f73; //  --theme-selection-background
+$attributeValue = #d96629; // --theme-highlight-orange
+$attributeKey = #46afe3; // --theme-highlight-blue
+$wrap = #a9bacb; // --theme-content-color1
+$wrapSelected = #8fa1b2; //--theme-content-color2
+$expander = #667380; // --theme-content-color3
+
+
+.HTMLTree {
+
+  background-color: $background;
+  font: 'monospace';
+
+  & .Node {
+
+    &__Tag {
+      &:hover, &:not(.selected):not(.unfocused):hover ~ .Node__Tail, &.tailed {
+        background-color: $backgroundHovered;
+      }
+      &.selected {
+        background-color: $backgroundSelected;
+      }
+      &.unfocused {
+        background-color: $backgroundSelected;
+      }
+    }
+
+    &__Expander {
+      color: $expander;
+    }
+
+    &__Wrap {
+      color: $wrap;
+      /.selected .Node__Wrap, /.unfocused .Node__Wrap {
+        color: $wrapSelected;
+      }
+    }
+
+    &__Container {
+      /.selected .Node__Container, /.unfocused .Node__Container {
+        color: $selected;
+      }
+    }
+
+    &__Text, &__Content {
+      color: $text;
+      /.selected .Node__Content, /.unfocused .Node__Content {
+        color: $selected;
+      }
+    }
+
+    &__Comment {
+      color: $comment;
+      /.selected .Node__Comment, /.unfocused .Node__Comment {
+        color: $selected;
+      }
+    }
+
+    &__Name {
+      color: $name;
+      /.selected .Node__Name, /.unfocused .Node__Name {
+        color: $selected;
+      }
+    }
+
+    &__AttributeKey {
+      color: $attributeKey;
+      /.selected .Node__AttributeKey, /.unfocused .Node__AttributeKey {
+        color: $selected;
+      }
+    }
+
+    &__AttributeValue {
+      color: $attributeValue;
+      /.selected .Node__AttributeValue, /.unfocused .Node__AttributeValue {
+        color: $selected;
+      }
+    }
+
+  }
+}
