@@ -1,0 +1,74 @@
+/**
+ * # Theme: Chrome DevTools
+ *
+ *
+ */
+.HTMLTree {
+  background-color: #fff;
+}
+.HTMLTree .Node__Tag:hover,
+.HTMLTree .Node__Tag:not(.selected):not(.unfocused):hover ~ .Node__Tail,
+.HTMLTree .Node__Tag.tailed {
+  background-color: #ebf2fc;
+}
+.HTMLTree .Node__Tag.selected {
+  background-color: #3879d9;
+}
+.HTMLTree .Node__Tag.unfocused {
+  background-color: #dadada;
+}
+.HTMLTree .Node__Wrap {
+  color: #c3b5c1;
+}
+.HTMLTree .Node__Wrap.selected {
+  color: #b2bdce;
+}
+.selected .Node__Container {
+  color: #fcfdff;
+}
+.selected .Node__Expander {
+  color: #fcfdff;
+}
+.HTMLTree .Node__Text {
+  color: #434b53;
+}
+.selected .Node__Text {
+  color: #fcfdff;
+}
+.HTMLTree .Node__Comment {
+  color: #4a884c;
+}
+.selected .Node__Comment {
+  color: #fcfdff;
+}
+.HTMLTree .Node__Name {
+  color: #8e1e87;
+}
+.selected .Node__Name {
+  color: #fcfdff;
+}
+.HTMLTree .Node__AttributeKey {
+  color: #a55b1f;
+}
+.selected .Node__AttributeKey {
+  color: #b2bdce;
+}
+.HTMLTree .Node__AttributeValue {
+  color: #3d3db3;
+}
+.selected .Node__AttributeValue {
+  color: #fcfdff;
+}
+.HTMLTree .Node__AttributeValue.link {
+  color: #1b1bef;
+  text-decoration: none;
+}
+.HTMLTree .Node__AttributeValue.link:hover {
+  text-decoration: underline;
+}
+.selected .Node__AttributeValue.link {
+  color: #fcfdff;
+}
+.HTMLTree .Node__AttributeValue.external {
+  text-decoration: initial;
+}

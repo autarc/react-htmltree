@@ -1,0 +1,71 @@
+/**
+ * # Theme: Firefox DevTools - Dark
+ *
+ * DevTool Colors:
+ * - https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors
+ */
+.HTMLTree {
+  background-color: #14171a;
+  font: 'monospace';
+}
+.HTMLTree .Node__Tag:hover,
+.HTMLTree .Node__Tag:not(.selected):not(.unfocused):hover ~ .Node__Tail,
+.HTMLTree .Node__Tag.tailed {
+  background-color: #183246;
+}
+.HTMLTree .Node__Tag.selected {
+  background-color: #1d4f73;
+}
+.HTMLTree .Node__Tag.unfocused {
+  background-color: #1d4f73;
+}
+.HTMLTree .Node__Expander {
+  color: #667380;
+}
+.HTMLTree .Node__Wrap {
+  color: #a9bacb;
+}
+.selected .Node__Wrap,
+.unfocused .Node__Wrap {
+  color: #8fa1b2;
+}
+.selected .Node__Container,
+.unfocused .Node__Container {
+  color: #f5f7fa;
+}
+.HTMLTree .Node__Text,
+.HTMLTree .Node__Content {
+  color: #8fa1b2;
+}
+.selected .Node__Content,
+.unfocused .Node__Content {
+  color: #f5f7fa;
+}
+.HTMLTree .Node__Comment {
+  color: #5c6773;
+}
+.selected .Node__Comment,
+.unfocused .Node__Comment {
+  color: #f5f7fa;
+}
+.HTMLTree .Node__Name {
+  color: #df80ff;
+}
+.selected .Node__Name,
+.unfocused .Node__Name {
+  color: #f5f7fa;
+}
+.HTMLTree .Node__AttributeKey {
+  color: #46afe3;
+}
+.selected .Node__AttributeKey,
+.unfocused .Node__AttributeKey {
+  color: #f5f7fa;
+}
+.HTMLTree .Node__AttributeValue {
+  color: #d96629;
+}
+.selected .Node__AttributeValue,
+.unfocused .Node__AttributeValue {
+  color: #f5f7fa;
+}
