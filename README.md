@@ -21,7 +21,7 @@ Chrome DevTools | Firefox DevTools - Light  | Firefox DevTools - Dark
 - default themes include 'Chrome' and 'Firefox' visuals
 - mimics common devtools behavior (like history or uncollapse all descendants)
 - supports universal rendering through difference source types
-- keeps synchronized with as HTML is referenced
+- keeps synchronized with the DOM if an HTML element is referenced
 
 
 ## Use Cases
