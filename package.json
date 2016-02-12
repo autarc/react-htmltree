@@ -1,7 +1,7 @@
 {
   "name": "react-htmltree",
   "description": "React component for HTML structures based on a string, react component or DOM node",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "author": "Stefan Dühring | Autarc <autarc@gmail.com>",
   "bugs": {
     "url": "https://github.com/Autarc/react-htmltree/issues"
