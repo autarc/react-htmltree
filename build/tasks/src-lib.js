@@ -12,7 +12,7 @@ import stylus from 'stylus'
 import postcss from 'postcss'
 import autoprefixer from 'autoprefixer'
 import cssnano from 'cssnano'
-import replaceRelative from '../../../gulp-replace-relative/index'
+import replaceRelative from 'gulp-replace-relative'
 
 /**
  * [description]
