@@ -26,7 +26,7 @@ export default class Container extends Component {
     onExpand: PropTypes.func,
     onSelect: PropTypes.func,
     onUnfocus: PropTypes.func
-  }
+  };
 
   constructor (props) {
     super(props)

@@ -22,7 +22,7 @@ export default class HTMLTree extends Component {
   static defaultProps = {
     theme: 'chrome-devtools',
     defaultExpandedTags: ['html', 'body']
-  }
+  };
 
   static propTypes = {
     source: PropTypes.oneOfType([
@@ -40,7 +40,7 @@ export default class HTMLTree extends Component {
     onExpand: PropTypes.func,
     onSelect: PropTypes.func,
     onUnfocus: PropTypes.func
-  }
+  };
 
   componentDidMount(){
     const { source } = this.props

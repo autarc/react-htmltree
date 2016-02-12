@@ -24,7 +24,7 @@ export default class Node extends Component {
     update: PropTypes.func.isRequired,
     onHover: PropTypes.func,
     customRenderer: PropTypes.func
-  }
+  };
 
   shouldComponentUpdate (nextProps, nextState) {
     return nextProps.node !== this.props.node
