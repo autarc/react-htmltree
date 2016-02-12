@@ -70,7 +70,7 @@ function customRender (decorate, node) {
   })
 }
 ```
-Further examples can be found [here](./examples).
+Further examples can be found [here](example).
 
 
 ## Development
