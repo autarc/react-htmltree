@@ -12,11 +12,9 @@ additional improvements regarding performance and usability were done.
 
 Checkout the [example in your browser]( https://autarc.github.io/react-htmltree).
 
-<div alignt="center">
-  <img style="width: 33%;" src="assets/chrome-devtools.png" alt="Chrome DevTools Theme" title="Chrme DevTools Theme"/>
-  <img style="width: 33%;" src="assets/firefox-devtools.light.png" alt="Firefox DevTools Theme - Light" title="Firefox DevTools Theme - Light"/>
-  <img style="width: 33%;" src="assets/firefox-devtools.dark.png" alt="Firefox DevTools Theme - Dark" title="Firefox DevTools Theme - Dark"/>
-</div>
+Chrome DevTools | Firefox DevTools - Light  | Firefox DevTools - Dark
+:--------------:|:-------------------------:|:----------------------:
+![Chrome DevTools Theme](assets/chrome-devtools.png)|![Firefox DevTools Theme - Light](assets/firefox-devtools.light.png)|![Firefox DevTools Theme - Dark](assets/firefox-devtools.dark.png)
 
 ## Features
 - standalone react module with inline style definitions
