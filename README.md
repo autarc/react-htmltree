@@ -10,6 +10,13 @@ or don't provide necessary customizations options. While its original is based o
 implementation of [react-devtools](https://github.com/facebook/react-devtools/blob/master/frontend/Node.js),
 additional improvements regarding performance and usability were done.
 
+Checkout the [example in your browser]( https://autarc.github.io/react-htmltree).
+
+<div alignt="center">
+  <img style="width: 33%;" src="assets/chrome-devtools.png" alt="Chrome DevTools Theme" title="Chrme DevTools Theme"/>
+  <img style="width: 33%;" src="assets/firefox-devtools.light.png" alt="Firefox DevTools Theme - Light" title="Firefox DevTools Theme - Light"/>
+  <img style="width: 33%;" src="assets/firefox-devtools.dark.png" alt="Firefox DevTools Theme - Dark" title="Firefox DevTools Theme - Dark"/>
+</div>
 
 ## Features
 - standalone react module with inline style definitions
@@ -75,6 +82,7 @@ To build your own version run `npm run dev` for development (incl. watch) or `np
 ## TODO
 - extend example page with style generator
 - checkout memory issue after theme change
+- only render elements in the current viewport (reuse DOM nodes)
 - allow object declaration for a styling a custom theme regarding [freestyle](https://github.com/blakeembrey/free-style)
 - prevent duplicate inline style imports for the select theme
 - extend documentation ([react-docgen](https://github.com/reactjs/react-docgen))
