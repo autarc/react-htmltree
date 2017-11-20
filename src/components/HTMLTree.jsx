@@ -4,7 +4,7 @@
  * Public interface of the component
  */
 
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import { findDOMNode } from 'react-dom'
 import { renderToString } from 'react-dom/server'
 import { parseDOM } from 'htmlparser2'
