@@ -38,13 +38,13 @@
     "nopt": "^3.0.6",
     "postcss": "^5.0.14",
     "postcss-loader": "^0.8.0",
+    "prop-types": "^15.6.0",
     "raw-loader": "^0.5.1",
-    "react": "^0.14.5",
-    "react-dom": "^16.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "stylus": "^0.53.0",
     "stylus-loader": "^1.4.2",
-    "webpack": "^1.12.9",
-    "prop-types": "^15.6.0"
+    "webpack": "^1.12.9"
   },
   "homepage": "https://github.com/Autarc/react-htmltree",
   "keywords": [
