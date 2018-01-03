@@ -6,7 +6,6 @@
  */
 .HTMLTree {
   background-color: #14171a;
-  font: 'monospace';
 }
 .HTMLTree .Node__Tag:hover,
 .HTMLTree .Node__Tag:not(.selected):not(.unfocused):hover ~ .Node__Tail,

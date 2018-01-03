@@ -42,9 +42,9 @@
     "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "stylus": "^0.53.0",
-    "stylus-loader": "^1.4.2",
-    "webpack": "^1.12.9"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^1.14.0"
   },
   "homepage": "https://github.com/Autarc/react-htmltree",
   "keywords": [

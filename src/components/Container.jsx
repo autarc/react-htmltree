@@ -4,8 +4,9 @@
  * Update & delegation layer
  */
 
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import Immutable from 'immutable'
+import PropTypes from 'prop-types'
 
 import { getSelector, getDepth, setDeep } from '../utilities'
 import Node from './Node'
@@ -53,7 +54,7 @@ export default class Container extends Component {
         <div className="Container__Nodes">
           <Node node={root} update={::this.onUpdate} onHover={onHover} customRender={customRender}/>
         </div>
-        <input className="Container__Input" type="text" ref="input"
+        <input className="Container__Input" type="text" ref={(input) => { this.input = input; }} />
           onFocus={::this.toggleFocus}
           onBlur={::this.toggleFocus}
         />
@@ -181,7 +182,7 @@ export default class Container extends Component {
 
       case 'triggerSelect':
         if (latest) {
-          this.refs.input.blur()
+          this.input.blur()
           const latestKeyPath = [...latest.props.node.get('keyPath').toJS(), 'state']
           return this.setState({
             root: root.withMutations((map) => map
@@ -191,12 +192,12 @@ export default class Container extends Component {
                         .setIn([...keyPath, 'tailed'], data.tailed)
                   ),
             latest: component
-          }, ::this.refs.input.focus)
+          }, ::this.input.focus)
         }
         return this.setState({
           root: root.setIn([...keyPath, 'tailed'], data.tailed),
           latest: component
-        }, ::this.refs.input.focus)
+        }, ::this.input.focus)
 
       case 'toggleFocus':
         if (data.selected) {
