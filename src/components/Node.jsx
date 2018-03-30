@@ -4,8 +4,9 @@
  * Representation of an HTML element
  */
 
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import classnames from 'classnames'
+import PropTypes from 'prop-types'
 
 // http://www.w3.org/TR/html-markup/syntax.html#void-elements
 const voidTags = [
